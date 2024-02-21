@@ -1,23 +1,12 @@
 
-import './App.css'
-import Timeline from "./composant/Timeline"
-import Header from "./composant/Header"
-import TweetEditor from './composant/TweetEditor'
-import Tweets from './composant/Tweets'
-import PageTitle from'./composant/PageTitle'
-import Toptweets from './composant/Toptweets'
+import Timeline from "./composant/Timeline1"
+import "./App.css"
 
 function App() {
   return (
     <>
-    <Tweets/>
     <Timeline/>
-    <Header/>
-    <TweetEditor/>
-    <PageTitle/>
-    <Toptweets/>
     </>
-   
   )
 }
 
