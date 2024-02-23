@@ -1,5 +1,6 @@
-import React from "react"
 
-export default function TweetEditorbuttons(){
-    return <div> TweetEditorbuttons.jsx</div>
+export default function TweetTitleAuthor(props){
+    console.log();
+    return  (
+        <div className="tweet-title-author">{props.author}</div>)
 }

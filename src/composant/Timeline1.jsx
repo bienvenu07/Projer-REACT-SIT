@@ -1,10 +1,13 @@
-import Header1 from "./Header1"
-import TweetEditorN from "./TweetEditorN"
+import Header from "./Header"
+import TweetEditor from "./TweetEditor"
+import Tweets from "./Tweets"
+
 
 export default function Timeline1(){
     return <div className="timeline"> 
-        <Header1/>
-        <TweetEditorN/>
+        <Header/>
+        <TweetEditor/>
+        <Tweets/>
         
     </div>
 }
