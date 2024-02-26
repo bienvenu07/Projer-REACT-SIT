@@ -4,6 +4,7 @@ import TweetAvatar2 from "../assets/img/Tweetavatar2.svg"
 import TweetAvatar3 from "../assets/img/Tweetavatar3.svg"
 import Tweetimage from "../assets/img/Tweetimage.svg"
 
+
 export default function Tweets(){
 
     let tweets = [
@@ -48,11 +49,75 @@ export default function Tweets(){
                     "Share":""
                 }
             }
+        },
+
+        { "id": "3", 
+            "avatar": TweetAvatar3,
+             "content":{
+               "body":{
+                "title":{
+                    "author":"Twetter",
+                    "detail": "@twitter",
+                    "time": "oct 29"
+                },
+                "text":'BIG NEWS js  still twitter',
+            },
+                "actions":{
+                    "Reply":"6.8K",
+                    "Retweet":"36.6",
+                    "React":"267.1",
+                    "Share":""
+                }
+            }
+
+    },
+   {
+    "id": "4",
+    "avatar": TweetAvatar3,
+             "content":{
+               "body":{
+                "title":{
+                    "author":"Tweetter",
+                    "detail": "@twitter",
+                    "time": "oct 01" 
+                     },
+                     "Text":'Hello literally everyone',
+                 },
+                 "actions":{
+                    "Reply":"118K",
+                    "Retweet":"785",
+                    "React":"3.3M",
+                    "Share":""
         }
+   
+   }
+   },
+
+  {"id": "5",
+    "avatar": TweetAvatar3,
+             "content":{
+               "body":{
+                "title":{
+                    "author":"Twitter",
+                    "detail": "@twitter",
+                    "time": "oct 01" 
+                },
+                "text ":'Hello literally everyone',
+             },
+             "actions":{
+                "Reply":"24",
+                "Retweet":"",
+                "React":"",
+                "Share":""
+    }
+         }
+     },
+
+
     ]
 
-    return <div className="tweets"> 
+    return ( <div className="tweets"> 
      {tweets.map((element)=> <Tweet key={element.id} table={element} />)}
     
-    </div>
+    </div>)
 }
