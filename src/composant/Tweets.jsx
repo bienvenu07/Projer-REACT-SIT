@@ -46,7 +46,7 @@ export default function Tweets(){
                     "Reply":"57",
                     "Retweet":"144",
                     "React":"184",
-                    "Share":""
+                   
                 }
             }
         },
@@ -66,51 +66,55 @@ export default function Tweets(){
                     "Reply":"6.8K",
                     "Retweet":"36.6",
                     "React":"267.1",
-                    "Share":""
+                    
                 }
             }
 
     },
    {
     "id": "4",
-    "avatar": TweetAvatar3,
-             "content":{
-               "body":{
-                "title":{
-                    "author":"Tweetter",
-                    "detail": "@twitter",
-                    "time": "oct 01" 
-                     },
-                     "Text":'Hello literally everyone',
-                 },
-                 "actions":{
-                    "Reply":"118K",
-                    "Retweet":"785",
-                    "React":"3.3M",
-                    "Share":""
-        }
-   
-   }
+            "avatar": TweetAvatar3,
+            "content":{
+                "body":{
+                    "title":{
+                        "author":"Twitter",
+                        "detail": "@nytime",
+                        "time": "2h"
+                    },
+                    "text":'Hello literally Everyone',
+                    
+                },
+                "actions":{
+                    "Reply":"118.7",
+                    "Retweet":"785.4",
+                    "React":"3.3",
+                  
+                }
+            }
+
    },
 
-  {"id": "5",
+  {
+    "id": "5",
     "avatar": TweetAvatar3,
-             "content":{
-               "body":{
-                "title":{
-                    "author":"Twitter",
-                    "detail": "@twitter",
-                    "time": "oct 01" 
-                },
-                "text ":'Hello literally everyone',
-             },
-             "actions":{
-                "Reply":"24",
-                "Retweet":"",
-                "React":"",
-                "Share":""
+    "content":{
+        "body":{
+            "title":{
+                "author":"Twitter",
+                "detail": "@nytime",
+                "time": "Octob 01"
+            },
+            "text":'Hello literally Eeryone',
+            "image":Tweetimage
+        },
+        "actions":{
+            "Reply":"57",
+            "Retweet":"144",
+            "React":"184",
+         
+        }
     }
-         }
+
      },
 
 
